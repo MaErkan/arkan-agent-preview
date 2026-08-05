@@ -17,13 +17,13 @@ const I18N = {
     wfTrigger: 'محفّز', wfAgent: 'وكيل ذكي', wfGen: 'توليد محتوى', wfNotify: 'إرسال إشعار', wfCloud: 'حفظ سحابي',
     activity: 'النشاط الأخير',
     feed: [
-      ['🤖', 'وكيل المبيعات', 'أنشأ رداً على عميل جديد'],
-      ['📊', 'وكيل التقارير', 'أنجز التقرير الأسبوعي'],
-      ['✉️', 'وكيل البريد', 'أرسل 12 رسالة متابعة'],
-      ['⚡', 'أتمتة الفواتير', 'عالجت 8 فواتير جديدة'],
-      ['☁️', 'وكيل الأرشفة', 'رفع 34 ملفاً إلى السحابة'],
-      ['🔔', 'وكيل الإشعارات', 'نبّه فريق الدعم لتذكرة عاجلة'],
-      ['📝', 'وكيل المحتوى', 'كتب مسودة منشور جديد']
+      ['robot', 'وكيل المبيعات', 'أنشأ رداً على عميل جديد'],
+      ['chart', 'وكيل التقارير', 'أنجز التقرير الأسبوعي'],
+      ['mail', 'وكيل البريد', 'أرسل 12 رسالة متابعة'],
+      ['bolt', 'أتمتة الفواتير', 'عالجت 8 فواتير جديدة'],
+      ['cloud', 'وكيل الأرشفة', 'رفع 34 ملفاً إلى السحابة'],
+      ['bell', 'وكيل الإشعارات', 'نبّه فريق الدعم لتذكرة عاجلة'],
+      ['doc', 'وكيل المحتوى', 'كتب مسودة منشور جديد']
     ],
     justNow: 'الآن',
     stat1: 'مستخدم نشط', stat2: 'وكيل ذكي', stat3: 'عملية مؤتمتة', stat4: 'ساعة موفرة',
@@ -47,12 +47,12 @@ const I18N = {
     footAbout: 'من نحن', footBlog: 'المدونة', footContact: 'تواصل معنا', footPrivacy: 'الخصوصية', footTerms: 'الشروط',
     copyright: '© 2025 ARKAN AI — جميع الحقوق محفوظة',
     chatTitle: 'مساعد أركان', chatOnline: 'متصل الآن',
-    chatHello: 'أهلاً بك في أركان! 👋 كيف أقدر أساعدك اليوم؟',
+    chatHello: 'أهلاً بك في أركان! كيف أقدر أساعدك اليوم؟',
     chatQuick: ['ما هو وكيل الذكاء الاصطناعي؟', 'كيف أبدأ مجاناً؟', 'ما التكاملات المتاحة؟'],
     chatReplies: [
-      'الوكيل الذكي هو مساعد رقمي يفهم مهام عملك وينفذها تلقائياً: يرد على العملاء، يبني التقارير، ويدير سير العمل — كل ذلك بدون تدخل منك. 🤖',
-      'بسيطة! اضغط «ابدأ مجاناً»، أنشئ حسابك خلال دقيقة، واربط أول أداة لك. لا حاجة لبطاقة ائتمان. 🚀',
-      'ندعم أكثر من 100 تكامل: Google، Microsoft 365، Slack، Notion، Telegram، OpenAI وغيرها الكثير. 🔌'
+      'الوكيل الذكي هو مساعد رقمي يفهم مهام عملك وينفذها تلقائياً: يرد على العملاء، يبني التقارير، ويدير سير العمل — كل ذلك بدون تدخل منك.',
+      'بسيطة! اضغط «ابدأ مجاناً»، أنشئ حسابك خلال دقيقة، واربط أول أداة لك. لا حاجة لبطاقة ائتمان.',
+      'ندعم أكثر من 100 تكامل: Google، Microsoft 365، Slack، Notion، Telegram، OpenAI وغيرها الكثير.'
     ]
   },
   en: {
@@ -72,13 +72,13 @@ const I18N = {
     wfTrigger: 'Trigger', wfAgent: 'AI Agent', wfGen: 'Generate Content', wfNotify: 'Send Notification', wfCloud: 'Save to Cloud',
     activity: 'Recent Activity',
     feed: [
-      ['🤖', 'Sales Agent', 'replied to a new customer'],
-      ['📊', 'Reports Agent', 'finished the weekly report'],
-      ['✉️', 'Mail Agent', 'sent 12 follow-up emails'],
-      ['⚡', 'Invoice Automation', 'processed 8 new invoices'],
-      ['☁️', 'Archive Agent', 'uploaded 34 files to the cloud'],
-      ['🔔', 'Notify Agent', 'alerted support about an urgent ticket'],
-      ['📝', 'Content Agent', 'drafted a new post']
+      ['robot', 'Sales Agent', 'replied to a new customer'],
+      ['chart', 'Reports Agent', 'finished the weekly report'],
+      ['mail', 'Mail Agent', 'sent 12 follow-up emails'],
+      ['bolt', 'Invoice Automation', 'processed 8 new invoices'],
+      ['cloud', 'Archive Agent', 'uploaded 34 files to the cloud'],
+      ['bell', 'Notify Agent', 'alerted support about an urgent ticket'],
+      ['doc', 'Content Agent', 'drafted a new post']
     ],
     justNow: 'now',
     stat1: 'Active Users', stat2: 'AI Agents', stat3: 'Automated Tasks', stat4: 'Hours Saved',
@@ -102,12 +102,12 @@ const I18N = {
     footAbout: 'About', footBlog: 'Blog', footContact: 'Contact', footPrivacy: 'Privacy', footTerms: 'Terms',
     copyright: '© 2025 ARKAN AI — All rights reserved',
     chatTitle: 'Arkan Assistant', chatOnline: 'Online',
-    chatHello: 'Welcome to Arkan! 👋 How can I help you today?',
+    chatHello: 'Welcome to Arkan! How can I help you today?',
     chatQuick: ['What is an AI agent?', 'How do I start free?', 'Which integrations exist?'],
     chatReplies: [
-      'An AI agent is a digital assistant that understands your work and executes it automatically: replying to customers, building reports, running workflows — all hands-free. 🤖',
-      'Easy! Hit "Start for Free", create your account in a minute, and connect your first tool. No credit card needed. 🚀',
-      'We support 100+ integrations: Google, Microsoft 365, Slack, Notion, Telegram, OpenAI and many more. 🔌'
+      'An AI agent is a digital assistant that understands your work and executes it automatically: replying to customers, building reports, running workflows — all hands-free.',
+      'Easy! Hit "Start for Free", create your account in a minute, and connect your first tool. No credit card needed.',
+      'We support 100+ integrations: Google, Microsoft 365, Slack, Notion, Telegram, OpenAI and many more.'
     ]
   },
   tr: {
@@ -127,13 +127,13 @@ const I18N = {
     wfTrigger: 'Tetikleyici', wfAgent: 'AI Ajanı', wfGen: 'İçerik Üret', wfNotify: 'Bildirim Gönder', wfCloud: 'Buluta Kaydet',
     activity: 'Son Aktiviteler',
     feed: [
-      ['🤖', 'Satış Ajanı', 'yeni bir müşteriye yanıt verdi'],
-      ['📊', 'Rapor Ajanı', 'haftalık raporu tamamladı'],
-      ['✉️', 'E-posta Ajanı', '12 takip e-postası gönderdi'],
-      ['⚡', 'Fatura Otomasyonu', '8 yeni fatura işledi'],
-      ['☁️', 'Arşiv Ajanı', '34 dosyayı buluta yükledi'],
-      ['🔔', 'Bildirim Ajanı', 'acil talep için desteği uyardı'],
-      ['📝', 'İçerik Ajanı', 'yeni bir gönderi taslağı yazdı']
+      ['robot', 'Satış Ajanı', 'yeni bir müşteriye yanıt verdi'],
+      ['chart', 'Rapor Ajanı', 'haftalık raporu tamamladı'],
+      ['mail', 'E-posta Ajanı', '12 takip e-postası gönderdi'],
+      ['bolt', 'Fatura Otomasyonu', '8 yeni fatura işledi'],
+      ['cloud', 'Arşiv Ajanı', '34 dosyayı buluta yükledi'],
+      ['bell', 'Bildirim Ajanı', 'acil talep için desteği uyardı'],
+      ['doc', 'İçerik Ajanı', 'yeni bir gönderi taslağı yazdı']
     ],
     justNow: 'şimdi',
     stat1: 'Aktif Kullanıcı', stat2: 'AI Ajanı', stat3: 'Otomatik İşlem', stat4: 'Tasarruf Edilen Saat',
@@ -157,12 +157,12 @@ const I18N = {
     footAbout: 'Hakkımızda', footBlog: 'Blog', footContact: 'İletişim', footPrivacy: 'Gizlilik', footTerms: 'Şartlar',
     copyright: '© 2025 ARKAN AI — Tüm hakları saklıdır',
     chatTitle: 'Arkan Asistanı', chatOnline: 'Çevrimiçi',
-    chatHello: "Arkan'a hoş geldiniz! 👋 Size nasıl yardımcı olabilirim?",
+    chatHello: "Arkan'a hoş geldiniz! Size nasıl yardımcı olabilirim?",
     chatQuick: ['AI ajanı nedir?', 'Nasıl ücretsiz başlarım?', 'Hangi entegrasyonlar var?'],
     chatReplies: [
-      'AI ajanı, işinizi anlayan ve otomatik yürüten dijital bir asistandır: müşterilere yanıt verir, raporlar oluşturur, iş akışlarını yönetir. 🤖',
-      'Çok kolay! "Ücretsiz Başla"ya tıklayın, bir dakikada hesabınızı oluşturun ve ilk aracınızı bağlayın. Kredi kartı gerekmez. 🚀',
-      "100+ entegrasyon destekliyoruz: Google, Microsoft 365, Slack, Notion, Telegram, OpenAI ve daha fazlası. 🔌"
+      'AI ajanı, işinizi anlayan ve otomatik yürüten dijital bir asistandır: müşterilere yanıt verir, raporlar oluşturur, iş akışlarını yönetir.',
+      'Çok kolay! "Ücretsiz Başla"ya tıklayın, bir dakikada hesabınızı oluşturun ve ilk aracınızı bağlayın. Kredi kartı gerekmez.',
+      "100+ entegrasyon destekliyoruz: Google, Microsoft 365, Slack, Notion, Telegram, OpenAI ve daha fazlası."
     ]
   }
 };
@@ -207,7 +207,7 @@ function pushFeedItem() {
   const [ico, who, what] = t.feed[feedIdx % t.feed.length];
   feedIdx++;
   const li = document.createElement('li');
-  li.innerHTML = `<span>${ico}</span><span><b>${who}</b> ${what}</span><span class="a-time">${t.justNow}</span>`;
+  li.innerHTML = `<span class="a-ico"><svg class="ic"><use href="#i-${ico}"/></svg></span><span><b>${who}</b> ${what}</span><span class="a-time">${t.justNow}</span>`;
   const feed = $('#activityFeed');
   feed.prepend(li);
   while (feed.children.length > 4) feed.lastChild.remove();
